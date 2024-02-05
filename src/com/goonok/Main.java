@@ -2,6 +2,7 @@ package com.goonok;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ImageDao imageDao = new ImageDao();
+        imageDao.imageStore();
     }
 }
